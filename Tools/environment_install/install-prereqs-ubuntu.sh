@@ -427,7 +427,8 @@ elif [ ${RELEASE_CODENAME} == 'noble' ]; then
     PYTHON_VENV_PACKAGE=python3.12-venv
 elif [ ${RELEASE_CODENAME} == 'oracular' ]; then
     PYTHON_VENV_PACKAGE=python3.12-venv
-elif [ ${RELEASE_CODENAME} == 'plucky' ]; then
+elif [ ${RELEASE_CODENAME} == 'plucky' ] ||
+     [ ${RELEASE_CODENAME} == 'jammy' ]; then
     PYTHON_VENV_PACKAGE=python3-venv
 fi
 
